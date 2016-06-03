@@ -14,6 +14,15 @@
 	  text-rendering: optimizelegibility;
       }
 
+      a {
+          font-weight: bold;
+      }
+
+      span.code {
+          font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+          font-size: 14px;
+      }
+      
       @font-face {
 	  font-family: 'Amethysta'; 
 	  font-style:  normal; 
@@ -226,9 +235,11 @@
 	  interfaces for ibdmdb.org, leveraging Django, Bottle, AJAX,
 	  and D3 to interactively visualize microbiome data. </li>
 	  <li> Encapsulated common microbiome workflows into the
-	  AnADAMA worklows python module. Leveraged AnADAMA and
-	  anadama_workflows to analyze 11,000 metagenomic samples and
-	  25 TB of data in five days on SLURM. </li>
+	  <span class="code">anadama_workflows</span> python
+	  module. Leveraged AnADAMA and
+	  <span class="code">anadama_workflows</span> to analyze
+	  11,000 metagenomic samples and 25 TB of data in five days on
+	  SLURM. </li>
 	  <li> Screened resumes, interviewed job applicants, and
 	  mentored the new Huttenhower lab scientific systems
 	  administrator. </li>
@@ -252,9 +263,9 @@
 	  <li> Established a Debian package repository and virtual
 	  machine packaging sytem for the Huttenhower
 	  Lab's <a href="https://bitbucket.org/biobakery/biobakery/wiki/Home">BioBakery</a>
-	  project </li>
-	  <li> Led a team of four investigating streptococcus and
-	  fusobacterium coculture experiments. Developed a novel
+	  project. </li>
+	  <li> Led a team of four investigating <i>Streptococcus</i> and
+	  <i>Fusobacterium</i> coculture experiments; developed a novel
 	  permutation method and flux balance to analyze time-series
 	  whole genome shotgun sequencing data and elucidate dental
 	  pathogenisis.</li>
