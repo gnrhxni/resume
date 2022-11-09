@@ -22,7 +22,7 @@ The method is essentially three rules:
   3. Control moisture levels
   
 Following the three rules above, combined with the bin setup described
-below, has served my and other Denver-aread families dependably since
+below, has served my and other Denver-area families dependably since
 2018.
 
 ## Bin Setup
